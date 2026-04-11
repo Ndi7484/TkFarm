@@ -1,0 +1,9 @@
+{
+  "id":"C001",
+  "name":"Wheat",
+  "buy":3,
+  "sell":1,
+  "reputation":0,
+  "exp":1,
+  "duration":"00:02:00"
+}

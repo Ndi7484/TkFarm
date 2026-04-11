@@ -1,0 +1,14 @@
+{
+  "id":"B001",
+  "name": "Bakery",
+  "recipes": [
+    {
+      "id":"B001R001",
+      "name": "bread",
+      "picture": ".png",
+      "sell": 8,
+      "buy": 10,
+      "make": [{ "id": "C001", "amount": 3 }]
+    }
+  ]
+}

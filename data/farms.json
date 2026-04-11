@@ -1,0 +1,27 @@
+{
+  "levelup": [
+    {
+      "name": "level1",
+      "exp_need":100,
+      "unlock": [
+        { "id": "C001"}
+      ],
+      "bonus": [
+        { "type": "diamond", "amount": 2 },
+        { "type": "coin", "amount": 300 }
+      ]
+    },
+    {
+      "name": "level2",
+      "exp_need":100,
+      "unlock": [
+        { "id": "B001" },
+        { "id": "B001R001"}
+      ],
+      "bonus": [
+        { "type": "diamond", "amount": 2 },
+        { "type": "coin", "amount": 300 }
+      ]
+    }
+  ]
+}

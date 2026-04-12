@@ -2,12 +2,10 @@ class LevelUp():
   # class unlock
   class Unlock():
     def __init__(self,data: dict):
-      self.type=data['type']
-      self.name=data['name']
+      self.id=data['id']
     def toDict(self):
       return {
-        "type":self.type,
-        "name":self.name
+        "id":self.id
       }
   
   # class bonus

@@ -7,6 +7,11 @@
   "reputation":0,
   "silo_max":150,
   "barn_max":150,
-  "silo":[],
-  "barn":[]
+  "silo":[
+    
+  ],
+  "barn":[],
+  "field":[],
+  "tree":[],
+  "bush":[]
 }

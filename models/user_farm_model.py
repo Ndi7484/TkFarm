@@ -7,8 +7,18 @@ class UserFarm():
     # self.reputation=0
     # self.silo_max=150
     # self.barn_max=150
+    # self.silo=[]
+    # self.barn=[]
+    # self.field=[]
+    # self.tree=[]
+    # self.bush=[]
     for key,value in json.items():
       setattr(self,key,value)
+    self.silo=[]
+    self.barn=[]
+    self.field=[]
+    self.tree=[]
+    self.bush=[]
   def renameFarm(self,name):
     self.farm_name=name
   def addCoin(self,n_coins):

@@ -1,0 +1,43 @@
+{
+  "username":"Nsolice",
+  "password":"splash123",
+  "farm_name":"",
+  "coin":300,
+  "exp":0,
+  "level":1,
+  "diamond":0,
+  "reputation":0,
+  "silo_max":150,
+  "barn_max":150,
+  "silo":[
+    { "id":"C001", "amount":3 }
+  ],
+  "barn":[],
+  "field":[
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "tree":[],
+  "bush":[],
+  "building":[],
+  "fishing":[
+    {},
+    {}
+  ],
+  "beehive":[
+    {},
+    {},
+    {},
+    {}
+  ],
+  "squirel_tree":[
+    {},
+    {},
+    {},
+    {}
+  ]
+}

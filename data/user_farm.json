@@ -1,17 +1,79 @@
 {
-  "farm_name":"",
-  "coin":300,
-  "exp":0,
-  "level":1,
-  "diamond":0,
-  "reputation":0,
-  "silo_max":150,
-  "barn_max":150,
-  "silo":[
-    
+  "username": "N123",
+  "password": "spash123",
+  "farm_name": "N123",
+  "coin": 300,
+  "exp": 0,
+  "level": 1,
+  "diamond": 0,
+  "reputation": 0,
+  "silo_max": 150,
+  "barn_max": 150,
+  "silo": [
+    { "id": "C001", "amount": 3 },
+    { "id": "C002", "amount": 3 }
   ],
-  "barn":[],
-  "field":[],
-  "tree":[],
-  "bush":[]
+  "barn": [
+    { "id": "B001R001", "amount": 2 },
+    { "id": "B001R002", "amount": 2 }
+  ],
+  "field": [
+    { "id": "C001", "last": "22/4/2026 13:00:00" },
+    { "id": "C001", "last": "22/4/2026 13:00:00" },
+    {},
+    {},
+    {},
+    {}
+  ],
+  "tree": [
+    { "id": "T001", "last": "22/4/2026 13:00:00" },
+    { "id": "T001", "last": "22/4/2026 13:00:00" },
+    { "id": "T001", "last": "22/4/2026 13:00:00" }
+  ],
+  "bush": [
+    { "id": "S001", "last": "22/4/2026 13:00:00" },
+    { "id": "S001", "last": "22/4/2026 13:00:00" },
+    { "id": "S001", "last": "22/4/2026 13:00:00" }
+  ],
+  "building": [
+    { "id": "B001", "recipie": [{ "id": "B001R001" }, { "id": "B001R002" }] },
+    { "id": "B002", "recipie": [{ "id": "B002R001" }] }
+  ],
+  "fishing": [
+    {
+      "last": "22/4/2026 13:00:00",
+      "free": true
+    },
+    {
+      "last": "22/4/2026 15:00:00",
+      "free": false
+    },
+    {}
+  ],
+  "beehive": [
+    {
+      "last": "22/4/2026 13:00:00",
+      "amount": 10,
+      "free": true
+    },
+    {
+      "last": "22/4/2026 15:00:00",
+      "amount": 10,
+      "free": false
+    },
+    {}
+  ],
+  "squirel_tree": [
+    {
+      "last": "22/4/2026 13:00:00",
+      "amount": 10,
+      "free": true
+    },
+    {
+      "last": "22/4/2026 15:00:00",
+      "amount": 10,
+      "free": false
+    },
+    {}
+  ]
 }

@@ -1,20 +1,30 @@
 import json
-from models.farms_model import Farms
-from models.user_farm_model import UserFarm
+from models.farms import farms_from_dict, farms_to_dict
+from models.user_farm import user_farm_from_dict, user_farm_to_dict
 from tkinter import *
 class MyApp():
   def __init__(self,farms: dict,user_farm: dict):
-    self.farms=Farms(farms)
-    self.user_farm=UserFarm(user_farm)
+    self.farms=farms_from_dict(farms)
+    self.user_farm=user_farm_from_dict(user_farm)
   
-  # show showMainMenu(self)
+  def baseWindow(self, **params):
+    tk = Tk()
+    tk.title(params.get('title','Unknown'))
+    tk.geometry(params.get('geometry','450x350'))
+    tk.configure(bg=params.get('bg','black'))
+    return tk
+    
+  def showMainMenu(self, tk):
+    label = Label(tk, text='Main Menu', bg='black', fg='white', font=('Arial', 20))
+    label.pack(padx=10, pady=10)
+  
   def run(self):
-    tk=Tk()
-    tk.title("My Farm Main Menu")
-    tk.geometry("450x350")
-    tk.configure(bg='black')
-    label=Label(tk,text='Main Menu', bg='green', fg='white', font=('Arial',20))
-    label.pack(padx=10,pady=10)
+    tk = self.baseWindow(
+      title = "My Farm Main Menu",
+      geometry = "450x350",
+      bg = "black"
+    )
+    self.showMainMenu(tk)
     
     tk.mainloop()
   

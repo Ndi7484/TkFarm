@@ -2,12 +2,30 @@
   "id":"B001",
   "name": "Bakery",
   "image":"assets/Bakery/Bakery.png",
+  "buy":20,
   "recipes": [
     {
       "id":"B001R001",
       "name": "bread",
       "image":"assets/Bakery/Bread.png",
-      "picture": ".png",
+      "sell": 8,
+      "buy": 10,
+      "make": [{ "id": "C001", "amount": 3 }],
+      "duration":"00:02:30"
+    },
+    {
+      "id":"B001R002",
+      "name": "corn bread",
+      "image":"assets/Bakery/Corn_Bread.png",
+      "sell": 8,
+      "buy": 10,
+      "make": [{ "id": "C002", "amount": 3 }],
+      "duration":"00:02:30"
+    },
+    {
+      "id":"B001R003",
+      "name": "cookie",
+      "image":"assets/Bakery/Cookie.png",
       "sell": 8,
       "buy": 10,
       "make": [{ "id": "C001", "amount": 3 }],
